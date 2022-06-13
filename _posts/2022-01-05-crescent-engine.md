@@ -27,9 +27,9 @@ We will be using the following:
 
 | Library/Framework  | Description                                                                            |
 | :----:| :-------------------------------------------------------------------------------------:|
-| GLM                | a math library, built exactly for OpenGL |
-| GLFW               | an api for window, surfaces creation |
-| GLEW               | a library to load and access opengl extensions based on the selected version |
+| GLM | a math library, built exactly for OpenGL |
+| GLFW | an api for window, surfaces creation |
+| GLEW | a library to load and access opengl extensions based on the selected version |
 
 #### Sample heading 4
 ##### Sample heading 5
