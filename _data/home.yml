@@ -7,7 +7,7 @@ navbar_entries:
 
 project_entries:
   - title: Crescent Game Engine
-    url: overview-post
+    url: crescent-engine
     desc: A small game engine written in C++/OpenGL.
 
   - title: Project 2
