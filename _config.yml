@@ -2,7 +2,7 @@ title: Redouane Chabane's blog
 author: Redouane Chabane
 url: http://www.brokenyouth.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Redouane's personal blog. Talk about about programming and projects showcase.
+  Talk about programming and projects showcase.
 
 permalink: /:slug
 
