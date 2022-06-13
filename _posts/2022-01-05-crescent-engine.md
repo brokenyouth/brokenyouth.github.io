@@ -25,11 +25,13 @@ Since the OpenGL API is available through a C interface, C++ is actually a stron
 
 We will be using the following:
 
-| Library/Framework  | Description |
-| :--- | :-------------------------------------------------------------------------------------:|
-| GLM | a math library, built exactly for OpenGL |
+| Library/Framework | Description |
+| :--- | :--:|
+| GLM  | a math library, built exactly for OpenGL |
 | GLFW | an api for window, surfaces creation |
 | GLEW | a library to load and access opengl extensions based on the selected version |
+| ASSIMP | a library to load 3d models in different formats |
+| stb_image | a library to load image files in different formats |
 
 #### Sample heading 4
 ##### Sample heading 5
