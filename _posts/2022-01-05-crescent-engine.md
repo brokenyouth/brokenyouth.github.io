@@ -15,7 +15,7 @@ The more planning we can do in early stages, the better and easier the developme
 There are 3 majors graphics APIs : Direct3D, Vulkan, OpenGL.
 Direct3D and Vulkan are really powerful, and give you a large control of GPU programming. However, it should be mentioned that they are significantly harder to use compared to OpenGL, and it’s extra complexity often means longer development times.
 
-We are not planning to develop a highly performant, multithreaded software. In fact, this is never the goal of a small project made by one person because it is not worth it. (Unless you're willing to spend years building such software, in that case you must consider the risks of such journey. 99% of the time, it is not worth it.)
+We are not planning to develop a highly performant, multithreaded software. In fact, this is never the goal of a small project made by one person. (Unless you're willing to spend years building such software, in that case you must consider the risks and benefits. 99% of the time, it is not worth it.)
 
 At this point, OpenGL stands out as the most simple API to learn and use.
 Now, because OpenGL is, exactly that, an API, it requires a programming language to work and should be compatible with a vast majority of languages (ports/wrappers). 
@@ -25,11 +25,11 @@ Since the OpenGL API is available through a C interface, C++ is actually a stron
 
 We will be using the following:
 
-| Library/Framework        | Description                                                                           | Cool  |
-| -------------------------|:-------------------------------------------------------------------------------------:| -----:|
-| col 3 is                 | right-aligned | $1600 |
-| col 2 is                 | centered      |   $12 |
-| zebra stripes            | are neat      |    $1 |
+| Library/Framework| Description                                                                           |
+| -----------------|:-------------------------------------------------------------------------------------:|
+| GLM              | a math library, built exactly for OpenGL |
+| GLFW             | an api for window, surfaces creation     |
+| GLEW             | a library to access load and access opengl extensions based on the selected version  |
 
 #### Sample heading 4
 ##### Sample heading 5
