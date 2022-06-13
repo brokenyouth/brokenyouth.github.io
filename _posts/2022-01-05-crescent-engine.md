@@ -15,11 +15,11 @@ The more planning we can do in early stages, the better and easier the developme
 There are 3 majors graphics APIs : Direct3D, Vulkan, OpenGL.
 Direct3D and Vulkan are really powerful, and give you a large control of GPU programming. However, it should be mentioned that they are significantly harder to use compared to OpenGL, and it’s extra complexity often means longer development times.
 
-We are not planning to develop a highly performant, multithreaded software. In fact, this is never the goal of a small project made by one person. (Unless you're willing to spend years building such software, in that case you must consider the risks and benefits. 99% of the time, it is not worth it.)
+We are not planning to develop a highly performant, multithreaded software. In fact, this is should not be the goal of a small project made by one person. (Unless you're willing to spend years building such software, in that case you must consider the risks and benefits. 99% of the time, it's not worth it.)
 
 At this point, OpenGL stands out as the most simple API to learn and use.
 Now, because OpenGL is, exactly that, an API, it requires a programming language to work and should be compatible with a vast majority of languages (ports/wrappers). 
-Since the OpenGL API is available through a C interface, C++ is actually a strong candidate to use and build our project. Not only that, but also because of the third party libraries that we will be using to make our life easier when programming with OpenGL.
+Since the OpenGL API is available through a C interface, C++ is actually a strong candidate to use. Not only that, but also because of the third party libraries that we will be using to make our life easier when programming with OpenGL.
 
 ## Third party libraries
 
